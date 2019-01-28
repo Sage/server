@@ -11,5 +11,7 @@ namespace GraphQL.Server
         public bool ExposeExceptions { get; set; }
 
         public bool SetFieldMiddleware { get; set; } = true;
+
+        public bool AllowIntrospection { get; set; } = true;
     }
 }
