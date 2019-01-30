@@ -16,8 +16,10 @@
         <Copyright>Pekka Heikura</Copyright>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="GraphQL" Version="2.3.0" />
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.0.0" />
         <PackageReference Include="Microsoft.Extensions.Options" Version="2.0.1" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\graphql-dotnet\src\GraphQL\GraphQL.csproj" />
     </ItemGroup>
 </Project>
